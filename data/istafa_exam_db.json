@@ -1,0 +1,3235 @@
+{
+  "schools": [
+    {
+      "id": "sch_sman1_teladan",
+      "npsn": "20109988",
+      "name": "SDN 2 GIRIHARJA",
+      "educationLevel": "SMA",
+      "address": "Jl. Uji Coba Kop Surat No. 12",
+      "subdistrict": "Kebayoran Baru",
+      "city": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "postalCode": "12160",
+      "principalName": "Dr. H. Ahmad Dahlan, M.Pd.",
+      "principalNip": "19750812 199903 1 002",
+      "logoUrl": "/uploads/1791901053626-58428297.jpg",
+      "phone": "(021) 7890123",
+      "email": "info@sman1teladan.sch.id",
+      "website": "https://sman1teladan.sch.id",
+      "academicYear": "2024/2025",
+      "semester": "Ganjil",
+      "letterheadText": "PEMERINTAH PROVINSI DKI JAKARTA\nDINAS PENDIDIKAN\nSEKOLAH MENENGAH ATAS NEGERI 1 TELADAN",
+      "status": "active",
+      "createdAt": "2026-10-13T13:44:19.115Z",
+      "updatedAt": "2026-10-14T08:50:45.650Z",
+      "regionalLogoUrl": ""
+    },
+    {
+      "id": "sch_smk_teknologi",
+      "npsn": "20105544",
+      "name": "SMK TEKNOLOGI NUSANTARA",
+      "educationLevel": "SMK",
+      "address": "Jl. Industri Mandiri Kav. 12",
+      "subdistrict": "Cikarang",
+      "city": "Bekasi",
+      "province": "Jawa Barat",
+      "postalCode": "17530",
+      "principalName": "Ir. Hendra Wijaya, M.T.",
+      "principalNip": "19800415 200501 1 008",
+      "logoUrl": "",
+      "phone": "(021) 8901234",
+      "email": "kontak@smkteknusa.sch.id",
+      "website": "https://smkteknusa.sch.id",
+      "academicYear": "2024/2025",
+      "semester": "Ganjil",
+      "status": "active",
+      "createdAt": "2026-10-13T13:44:19.115Z",
+      "updatedAt": "2026-10-14T08:35:26.971Z"
+    },
+    {
+      "id": "sch_1791966410201",
+      "npsn": "668868",
+      "name": "SDN 3 BINTANGRESMI",
+      "educationLevel": "SD",
+      "address": "Kp bungbas",
+      "subdistrict": "",
+      "city": "KAB. LEBAK",
+      "province": "PROP. BANTEN",
+      "postalCode": "",
+      "principalName": "ERNA",
+      "principalNip": "",
+      "phone": "-908980980798",
+      "email": "quiker03@gmail.com",
+      "website": "",
+      "academicYear": "2024/2025",
+      "semester": "Ganjil",
+      "letterheadText": "DINAS PENDIDIKAN\nSDN 3 BINTANGRESMI",
+      "status": "active",
+      "createdAt": "2026-10-14T08:26:50.201Z",
+      "updatedAt": "2026-10-14T08:34:01.580Z"
+    },
+    {
+      "id": "sch_1791967019545",
+      "npsn": "02830280",
+      "name": "SMPN 2 CIPANAS",
+      "educationLevel": "SMP",
+      "address": "Kp Cikaak",
+      "subdistrict": "",
+      "city": "Kabupaten Lebak",
+      "province": "Banten",
+      "postalCode": "",
+      "principalName": "MOOK",
+      "principalNip": "",
+      "phone": "08980980798",
+      "email": "quiker03@gmail.com",
+      "website": "",
+      "academicYear": "2024/2025",
+      "semester": "Ganjil",
+      "letterheadText": "DINAS PENDIDIKAN\nSMPN 2 CIPANAS",
+      "status": "active",
+      "createdAt": "2026-10-14T08:36:59.545Z",
+      "updatedAt": "2026-10-14T08:37:58.535Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_superadmin",
+      "username": "superadmin",
+      "email": "superadmin@istafaexam.id",
+      "fullName": "Super Administrator ISTAFA",
+      "role": "super_admin",
+      "passwordHash": "$2b$10$BuVRSv29vSn6nqfM9uWqX.I49O9EtZvRStr8VK1TnWp2UPrdW7hyu",
+      "createdAt": "2026-10-13T13:44:19.115Z",
+      "lastLogin": "2026-10-14T08:37:52.822Z"
+    },
+    {
+      "id": "usr_admin_sman1",
+      "username": "adminsman1",
+      "email": "admin@sman1teladan.sch.id",
+      "fullName": "M. Rizky Pratama, S.Kom",
+      "role": "school_admin",
+      "schoolId": "sch_sman1_teladan",
+      "passwordHash": "$2b$10$BuVRSv29vSn6nqfM9uWqX.63a9OHPS8fBJcLCWYc4t0O7uDQuZo7u",
+      "createdAt": "2026-10-13T13:44:19.115Z",
+      "lastLogin": "2026-10-14T08:50:45.623Z"
+    },
+    {
+      "id": "usr_1791966410314",
+      "username": "BINTANG3",
+      "email": "quiker03@gmail.com",
+      "fullName": "Quiker 03",
+      "role": "school_admin",
+      "schoolId": "sch_1791966410201",
+      "passwordHash": "$2b$10$toK4XIoWEVpKpPJdWKRszOgOTCQdih5jVopDhuw00oZvMyMPFd3yW",
+      "createdAt": "2026-10-14T08:26:50.314Z",
+      "lastLogin": "2026-10-14T08:34:10.204Z"
+    },
+    {
+      "id": "usr_1791967019648",
+      "username": "SMPN2CIPANAS",
+      "email": "quiker03@gmail.com",
+      "fullName": "Quiker 03",
+      "role": "school_admin",
+      "schoolId": "sch_1791967019545",
+      "passwordHash": "$2b$10$bYfiqhaSQanU50f8aG6Yc.5Dl/ifAmYcXEA2exT2Gnx0mbEdyN0Ta",
+      "createdAt": "2026-10-14T08:36:59.648Z"
+    }
+  ],
+  "students": [
+    {
+      "id": "std_1001",
+      "schoolId": "sch_sman1_teladan",
+      "nis": "240101",
+      "nisn": "0071234561",
+      "fullName": "Aditya Pratama Putra",
+      "gender": "L",
+      "gradeClass": "X IPA 1",
+      "rombel": "Rombel A",
+      "academicYear": "2024/2025",
+      "participantCode": "IST-240101-01",
+      "status": "active",
+      "createdAt": "2026-10-13T13:44:19.115Z",
+      "updatedAt": "2026-10-13T13:44:19.115Z"
+    },
+    {
+      "id": "std_1002",
+      "schoolId": "sch_sman1_teladan",
+      "nis": "240102",
+      "nisn": "0071234562",
+      "fullName": "Annisa Fitriani Rahma",
+      "gender": "P",
+      "gradeClass": "X IPA 1",
+      "rombel": "Rombel A",
+      "academicYear": "2024/2025",
+      "participantCode": "IST-240102-02",
+      "status": "active",
+      "createdAt": "2026-10-13T13:44:19.115Z",
+      "updatedAt": "2026-10-13T13:44:19.115Z"
+    },
+    {
+      "id": "std_1003",
+      "schoolId": "sch_sman1_teladan",
+      "nis": "240103",
+      "nisn": "0071234563",
+      "fullName": "Bagas Wahyu Nugroho",
+      "gender": "L",
+      "gradeClass": "X IPA 1",
+      "rombel": "Rombel A",
+      "academicYear": "2024/2025",
+      "participantCode": "IST-240103-03",
+      "status": "active",
+      "createdAt": "2026-10-13T13:44:19.115Z",
+      "updatedAt": "2026-10-13T13:44:19.115Z"
+    },
+    {
+      "id": "std_1004",
+      "schoolId": "sch_sman1_teladan",
+      "nis": "240104",
+      "nisn": "0071234564",
+      "fullName": "Cantika Dewi Larasati",
+      "gender": "P",
+      "gradeClass": "X IPA 1",
+      "rombel": "Rombel A",
+      "academicYear": "2024/2025",
+      "participantCode": "IST-240104-04",
+      "status": "active",
+      "createdAt": "2026-10-13T13:44:19.115Z",
+      "updatedAt": "2026-10-13T13:44:19.115Z"
+    },
+    {
+      "id": "std_1005",
+      "schoolId": "sch_sman1_teladan",
+      "nis": "240105",
+      "nisn": "0071234565",
+      "fullName": "Dimas Aditya Wicaksono",
+      "gender": "L",
+      "gradeClass": "X IPA 2",
+      "rombel": "Rombel B",
+      "academicYear": "2024/2025",
+      "participantCode": "IST-240105-05",
+      "status": "active",
+      "createdAt": "2026-10-13T13:44:19.115Z",
+      "updatedAt": "2026-10-13T13:44:19.115Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_mat_1",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 1,
+      "type": "multiple_choice",
+      "text": "Jika f(x) = 2x² - 4x + 5, tentukan koordinat titik puncak parabola fungsi kuadrat tersebut!",
+      "options": [
+        {
+          "key": "A",
+          "text": "(1, 3)"
+        },
+        {
+          "key": "B",
+          "text": "(2, 5)"
+        },
+        {
+          "key": "C",
+          "text": "(-1, 3)"
+        },
+        {
+          "key": "D",
+          "text": "(1, -3)"
+        },
+        {
+          "key": "E",
+          "text": "(-2, 5)"
+        }
+      ],
+      "correctAnswer": "A",
+      "scoreWeight": 2,
+      "explanation": "Sumbu simetri x = -b/(2a) = -(-4)/(2*2) = 1. f(1) = 2(1) - 4(1) + 5 = 3. Jadi titik puncak (1, 3).",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T13:44:19.115Z"
+    },
+    {
+      "id": "q_mat_2",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 2,
+      "type": "multiple_choice",
+      "text": "Nilai dari sin 30° + cos 60° - tan 45° adalah...",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1/2"
+        },
+        {
+          "key": "C",
+          "text": "1"
+        },
+        {
+          "key": "D",
+          "text": "√3"
+        },
+        {
+          "key": "E",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "scoreWeight": 2,
+      "explanation": "sin 30° = 1/2, cos 60° = 1/2, tan 45° = 1. Maka (1/2 + 1/2 - 1) = 0.",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T13:44:19.115Z"
+    },
+    {
+      "id": "q_mat_3",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 3,
+      "type": "multiple_choice",
+      "text": "Sebuah segitiga ABC siku-siku di B dengan panjang sisi AB = 6 cm dan BC = 8 cm. Panjang sisi miring AC adalah...",
+      "options": [
+        {
+          "key": "A",
+          "text": "10 cm"
+        },
+        {
+          "key": "B",
+          "text": "12 cm"
+        },
+        {
+          "key": "C",
+          "text": "14 cm"
+        },
+        {
+          "key": "D",
+          "text": "9 cm"
+        },
+        {
+          "key": "E",
+          "text": "16 cm"
+        }
+      ],
+      "correctAnswer": "A",
+      "scoreWeight": 2,
+      "explanation": "AC = √(AB² + BC²) = √(36 + 64) = √100 = 10 cm.",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T13:44:19.115Z"
+    },
+    {
+      "id": "q_mat_4",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 4,
+      "type": "multiple_choice",
+      "text": "Himpunan penyelesaian dari pertidaksamaan 2x - 3 < 7 adalah...",
+      "options": [
+        {
+          "key": "A",
+          "text": "x < 5"
+        },
+        {
+          "key": "B",
+          "text": "x > 5"
+        },
+        {
+          "key": "C",
+          "text": "x < 2"
+        },
+        {
+          "key": "D",
+          "text": "x > 2"
+        },
+        {
+          "key": "E",
+          "text": "x ≤ 5"
+        }
+      ],
+      "correctAnswer": "A",
+      "scoreWeight": 2,
+      "explanation": "2x < 10 => x < 5.",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T13:44:19.115Z"
+    },
+    {
+      "id": "q_mat_5",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 5,
+      "type": "essay",
+      "text": "Jelaskan pengertian fungsi bijektif dan berikan satu contoh fungsi nyata yang bersifat bijektif beserta penjelasannya!",
+      "options": [],
+      "correctAnswer": "Fungsi bijektif adalah fungsi yang injektif (satu-satu) dan surjektif (pada). Contoh: f(x) = 2x + 1.",
+      "scoreWeight": 5,
+      "explanation": "Kriteria penilaian: Pengertian tepat (2 poin), Contoh tepat (2 poin), Penjelasan domain-kodomain (1 poin).",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T13:44:19.115Z"
+    },
+    {
+      "id": "q_1791901482555_0",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 1,
+      "type": "multiple_choice",
+      "text": "Hasil dari (-12) + 25 - (-18) adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "31"
+        },
+        {
+          "key": "B",
+          "text": "-5"
+        },
+        {
+          "key": "C",
+          "text": "19"
+        },
+        {
+          "key": "D",
+          "text": "43"
+        }
+      ],
+      "correctAnswer": "A",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_1",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 2,
+      "type": "multiple_choice",
+      "text": "Pak Budi membeli 5 kardus mie instan. Setiap kardus berisi 40 bungkus mie. Mie tersebut akan dibagikan kepada 8 panti asuhan sama banyak. Berapa bungkus mie yang diterima setiap panti asuhan?",
+      "options": [
+        {
+          "key": "A",
+          "text": "20 bungkus"
+        },
+        {
+          "key": "B",
+          "text": "25 bungkus"
+        },
+        {
+          "key": "C",
+          "text": "30 bungkus"
+        },
+        {
+          "key": "D",
+          "text": "35 bungkus"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_2",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 3,
+      "type": "multiple_choice",
+      "text": "Hasil dari 2/5 + 1/4 × 2/3 adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "17/30"
+        },
+        {
+          "key": "B",
+          "text": "11/30"
+        },
+        {
+          "key": "C",
+          "text": "13/30"
+        },
+        {
+          "key": "D",
+          "text": "7/15"
+        }
+      ],
+      "correctAnswer": "A",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_3",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 4,
+      "type": "multiple_choice",
+      "text": "Perhatikan diagram lingkaran di bawah ini! Jika jumlah seluruh siswa adalah 120 orang, berapa banyak siswa yang menyukai mata pelajaran Matematika?",
+      "options": [
+        {
+          "key": "A",
+          "text": "30 orang"
+        },
+        {
+          "key": "B",
+          "text": "36 orang"
+        },
+        {
+          "key": "C",
+          "text": "24 orang"
+        },
+        {
+          "key": "D",
+          "text": "18 orang"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [
+        "/uploads/docx-img-1791901377059-6652389.png"
+      ],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_4",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 5,
+      "type": "multiple_choice",
+      "text": "Keliling sebuah lingkaran yang memiliki diameter 28 cm adalah ... (π = 22/7)",
+      "options": [
+        {
+          "key": "A",
+          "text": "88 cm"
+        },
+        {
+          "key": "B",
+          "text": "176 cm"
+        },
+        {
+          "key": "C",
+          "text": "616 cm"
+        },
+        {
+          "key": "D",
+          "text": "44 cm"
+        }
+      ],
+      "correctAnswer": "A",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_5",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 6,
+      "type": "multiple_choice",
+      "text": "Sebuah tabung memiliki jari-jari alas 7 cm dan tinggi 20 cm. Volume tabung tersebut adalah ... (π = 22/7)",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.540 cm³"
+        },
+        {
+          "key": "B",
+          "text": "3.080 cm³"
+        },
+        {
+          "key": "C",
+          "text": "4.620 cm³"
+        },
+        {
+          "key": "D",
+          "text": "6.160 cm³"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_6",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 7,
+      "type": "multiple_choice",
+      "text": "Perhatikan gambar gabungan bangun datar di bawah ini! Luas total bangun tersebut adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "126 cm²"
+        },
+        {
+          "key": "B",
+          "text": "156 cm²"
+        },
+        {
+          "key": "C",
+          "text": "180 cm²"
+        },
+        {
+          "key": "D",
+          "text": "216 cm²"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [
+        "/uploads/docx-img-1791901377064-9830796.png"
+      ],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_7",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 8,
+      "type": "multiple_choice",
+      "text": "Data nilai ulangan Matematika Ani adalah sebagai berikut: 7, 8, 9, 6, 8, 10, 8, 7, 9. Modus dari data nilai tersebut adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "7"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "8.5"
+        },
+        {
+          "key": "D",
+          "text": "9"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_8",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 9,
+      "type": "multiple_choice",
+      "text": "Perhatikan gambar bidang Kartesius di bawah ini! Koordinat titik C adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "(2, 3)"
+        },
+        {
+          "key": "B",
+          "text": "(-3, 2)"
+        },
+        {
+          "key": "C",
+          "text": "(-2, -4)"
+        },
+        {
+          "key": "D",
+          "text": "(4, -3)"
+        }
+      ],
+      "correctAnswer": "C",
+      "images": [
+        "/uploads/docx-img-1791901377086-7640410.png"
+      ],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_9",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 10,
+      "type": "multiple_choice",
+      "text": "Rata-rata (mean) dari data nilai: 6, 7, 8, 8, 9, 10, 8, 8 adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "7,75"
+        },
+        {
+          "key": "B",
+          "text": "8,00"
+        },
+        {
+          "key": "C",
+          "text": "8,25"
+        },
+        {
+          "key": "D",
+          "text": "8,50 II. JAWABLAH PERTANYAAN-PERTANYAAN DI BAWAH INI DENGAN JELAS DAN BENAR!"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_10",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 1,
+      "type": "essay",
+      "text": "Sebuah toko kelontong memiliki persediaan 4,5 kg gula pasir. Hari ini toko tersebut menerima kiriman gula pasir sebanyak 3/4 kg dari distributor. Jika gula tersebut akan dikemas ulang ke dalam kantong plastik berukuran 0,25 kg, berapa banyak kantong plastik yang dibutuhkan?\nJawab:.................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "A",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_11",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 2,
+      "type": "essay",
+      "text": "Perhatikan gambar bangun ruang balok di bawah ini!Hitunglah volume dan luas permukaan balok tersebut jika panjang p = 15 cm, lebar l = 10 cm, dan tinggi t = 8 cm!\nJawab:.................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "B",
+      "images": [
+        "/uploads/docx-img-1791901377086-2541035.png"
+      ],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_12",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 3,
+      "type": "essay",
+      "text": "Nilai ulangan harian matematika dari 10 siswa kelas VI adalah sebagai berikut:75, 80, 90, 65, 70, 85, 90, 80, 80, 95.Hitunglah nilai Rata-rata (Mean), Median, dan Modus dari data tersebut!\nJawab:.................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "A",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791901482555_13",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 4,
+      "type": "essay",
+      "text": "Ibu membuat taplak meja berbentuk lingkaran dengan panjang jari-jari 35 cm. Di sekeliling tepi taplak meja tersebut akan dipasang renda hiasan. Jika harga renda adalah Rp 12.000,00 per meter, berapakah total biaya yang harus dikeluarkan Ibu untuk membeli renda tersebut? (Gunakan π = 22/7)\nJawab:.................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-13T14:24:42.555Z"
+    },
+    {
+      "id": "q_1791965572284_0",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 1,
+      "type": "multiple_choice",
+      "text": "Cahaya memiliki sifat dapat merambat lurus. Contoh peristiwa dalam kehidupan sehari-hari yang membuktikan sifat tersebut adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Terjadinya pelangi di langit"
+        },
+        {
+          "key": "B",
+          "text": "Sinar lampu mobil yang lurus saat malam hari"
+        },
+        {
+          "key": "C",
+          "text": "Bayangan sendok membengkok di dalam air"
+        },
+        {
+          "key": "D",
+          "text": "Wajah terlihat di cermin"
+        }
+      ],
+      "correctAnswer": "E",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_1",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 2,
+      "type": "multiple_choice",
+      "text": "Perhatikan Gambar A di bawah ini!Kedudukan katak dalam rantai makanan tersebut adalah sebagai ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Produsen"
+        },
+        {
+          "key": "B",
+          "text": "Konsumen I"
+        },
+        {
+          "key": "C",
+          "text": "Konsumen II"
+        },
+        {
+          "key": "D",
+          "text": "Pengurai (Dekomposer)"
+        }
+      ],
+      "correctAnswer": "C",
+      "images": [
+        "/uploads/docx-img-1791965507204-12523.png"
+      ],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_2",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 3,
+      "type": "multiple_choice",
+      "text": "Jika populasi ular pada Gambar A berkurang secara drastis karena diburu manusia, maka kemungkinan dampak yang akan terjadi pada ekosistem adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Populasi katak meningkat pesat"
+        },
+        {
+          "key": "B",
+          "text": "Populasi padi semakin melimpah"
+        },
+        {
+          "key": "C",
+          "text": "Populasi belalang menurun tajam"
+        },
+        {
+          "key": "D",
+          "text": "Hasil panen petani meningkat"
+        }
+      ],
+      "correctAnswer": "C",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 2,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_3",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 4,
+      "type": "multiple_choice",
+      "text": "Perhatikan Gambar B! Alat kelamin jantan pada bunga ditunjukkan oleh nomor ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nomor 1"
+        },
+        {
+          "key": "B",
+          "text": "Nomor 2"
+        },
+        {
+          "key": "C",
+          "text": "Nomor 3"
+        },
+        {
+          "key": "D",
+          "text": "Nomor 4"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [
+        "/uploads/docx-img-1791965507205-5606353.png"
+      ],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_4",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 5,
+      "type": "multiple_choice",
+      "text": "Peristiwa jatuhnya serbuk sari ke kepala putik dinamakan ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fotosintesis"
+        },
+        {
+          "key": "B",
+          "text": "Penyerbukan"
+        },
+        {
+          "key": "C",
+          "text": "Pembuahan"
+        },
+        {
+          "key": "D",
+          "text": "Germinasi"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_5",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 6,
+      "type": "multiple_choice",
+      "text": "Tumbuhan hijau mampu membuat makanannya sendiri melalui proses fotosintesis. Bahan utama yang diserap oleh akar tumbuhan dari dalam tanah untuk fotosintesis adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oksigen dan Karbon Dioksida"
+        },
+        {
+          "key": "B",
+          "text": "Air dan Mineral"
+        },
+        {
+          "key": "C",
+          "text": "Cahaya Matahari dan Klorofil"
+        },
+        {
+          "key": "D",
+          "text": "Glukosa dan Nitrogen"
+        }
+      ],
+      "correctAnswer": "D",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_6",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 7,
+      "type": "multiple_choice",
+      "text": "Gas yang dihasilkan dari proses fotosintesis dan sangat dibutuhkan oleh manusia serta hewan untuk bernapas adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Karbon Dioksida"
+        },
+        {
+          "key": "B",
+          "text": "Nitrogen"
+        },
+        {
+          "key": "C",
+          "text": "Oksigen"
+        },
+        {
+          "key": "D",
+          "text": "Karbon Monoksida"
+        }
+      ],
+      "correctAnswer": "C",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_7",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 8,
+      "type": "multiple_choice",
+      "text": "Perhatikan Gambar C! Pensil yang dicelupkan ke dalam gelas berisi air terlihat seolah-olah patah/bengkok. Hal ini membuktikan sifat cahaya yaitu ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cahaya dapat dipantulkan"
+        },
+        {
+          "key": "B",
+          "text": "Cahaya menembus benda bening"
+        },
+        {
+          "key": "C",
+          "text": "Cahaya dapat dibiaskan"
+        },
+        {
+          "key": "D",
+          "text": "Cahaya merambat lurus"
+        }
+      ],
+      "correctAnswer": "C",
+      "images": [
+        "/uploads/docx-img-1791965507210-4700923.png"
+      ],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_8",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 9,
+      "type": "multiple_choice",
+      "text": "Sifat magnet yang ditunjukkan pada Gambar D ketika dua kutub yang sama (S-S) didekatkan adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tarik-menarik dengan kuat"
+        },
+        {
+          "key": "B",
+          "text": "Tolak-menolak"
+        },
+        {
+          "key": "C",
+          "text": "Menempel erat"
+        },
+        {
+          "key": "D",
+          "text": "Tidak terjadi reaksi apapun"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [
+        "/uploads/docx-img-1791965507212-7046192.png"
+      ],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_9",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 10,
+      "type": "multiple_choice",
+      "text": "Benda berikut yang termasuk ke dalam benda magnetis (dapat ditarik magnet) adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pensil kayu dan penghapus"
+        },
+        {
+          "key": "B",
+          "text": "Jarum, paku, dan klip kertas"
+        },
+        {
+          "key": "C",
+          "text": "Baju kain dan botol plastik"
+        },
+        {
+          "key": "D",
+          "text": "Kaca jendela dan daun kering"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_10",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 11,
+      "type": "multiple_choice",
+      "text": "Perubahan energi yang terjadi pada alat kipas angin saat dinyalakan adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Energi listrik menjadi energi panas"
+        },
+        {
+          "key": "B",
+          "text": "Energi listrik menjadi energi gerak"
+        },
+        {
+          "key": "C",
+          "text": "Energi kimia menjadi energi listrik"
+        },
+        {
+          "key": "D",
+          "text": "Energi gerak menjadi energi bunyi"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_11",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 12,
+      "type": "multiple_choice",
+      "text": "Bentuk energi yang tersimpan dalam makanan, baterai, dan bahan bakar minyak adalah energi ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kinetik"
+        },
+        {
+          "key": "B",
+          "text": "Kimia"
+        },
+        {
+          "key": "C",
+          "text": "Potensial Gravitasi"
+        },
+        {
+          "key": "D",
+          "text": "Termal"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_12",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 13,
+      "type": "multiple_choice",
+      "text": "Permukaan bumi terdiri dari daratan dan perairan. Lapisan air yang menyelimuti permukaan bumi disebut ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Atmosfer"
+        },
+        {
+          "key": "B",
+          "text": "Litosfer"
+        },
+        {
+          "key": "C",
+          "text": "Hidrosfer"
+        },
+        {
+          "key": "D",
+          "text": "Biosfer"
+        }
+      ],
+      "correctAnswer": "C",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_13",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 14,
+      "type": "multiple_choice",
+      "text": "Perhatikan Gambar E tentang siklus air! Tahap penguapan air laut/sungai akibat panas matahari yang ditunjukkan oleh nomor 1 disebut ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kondensasi"
+        },
+        {
+          "key": "B",
+          "text": "Evaporasi"
+        },
+        {
+          "key": "C",
+          "text": "Presipitasi"
+        },
+        {
+          "key": "D",
+          "text": "Infiltrasi"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [
+        "/uploads/docx-img-1791965507222-9364332.png"
+      ],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_14",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 15,
+      "type": "multiple_choice",
+      "text": "Proses pembentukan awan dari titik-titik air hasil penguapan (nomor 2 pada Gambar E) disebut ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kondensasi"
+        },
+        {
+          "key": "B",
+          "text": "Evaporasi"
+        },
+        {
+          "key": "C",
+          "text": "Transpirasi"
+        },
+        {
+          "key": "D",
+          "text": "Presipitasi"
+        }
+      ],
+      "correctAnswer": "A",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_15",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 16,
+      "type": "multiple_choice",
+      "text": "Upaya manusia yang dapat mengganggu dan merusak siklus air adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Melakukan reboisasi hutan gundul"
+        },
+        {
+          "key": "B",
+          "text": "Menutup seluruh pekarangan rumah dengan beton/semen"
+        },
+        {
+          "key": "C",
+          "text": "Membuat lubang biopori"
+        },
+        {
+          "key": "D",
+          "text": "Menghemat penggunaan air bersih"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_16",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 17,
+      "type": "multiple_choice",
+      "text": "Kerajaan Hindu tertua di Indonesia yang dibuktikan dengan ditemukannya 7 buah Yupa adalah Kerajaan ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tarumanegara"
+        },
+        {
+          "key": "B",
+          "text": "Kutai"
+        },
+        {
+          "key": "C",
+          "text": "Majapahit"
+        },
+        {
+          "key": "D",
+          "text": "Sriwijaya"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_17",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 18,
+      "type": "multiple_choice",
+      "text": "Kerajaan Buddha terbesar di Indonesia yang pernah menjadi pusat penyiaran agama Buddha di Asia Tenggara adalah Kerajaan ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Singasari"
+        },
+        {
+          "key": "B",
+          "text": "Mataram Kuno"
+        },
+        {
+          "key": "C",
+          "text": "Sriwijaya"
+        },
+        {
+          "key": "D",
+          "text": "Samudera Pasai"
+        }
+      ],
+      "correctAnswer": "C",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_18",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 19,
+      "type": "multiple_choice",
+      "text": "Patih terkenal dari Kerajaan Majapahit yang mengucapkan &apos;Sumpah Palapa&apos; untuk menyatukan Nusantara adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hayam Wuruk"
+        },
+        {
+          "key": "B",
+          "text": "Gajah Mada"
+        },
+        {
+          "key": "C",
+          "text": "Mulawarman"
+        },
+        {
+          "key": "D",
+          "text": "Ken Arok"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_19",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 20,
+      "type": "multiple_choice",
+      "text": "Warisan budaya takbenda Indonesia yang diakui UNESCO dan dibuat dengan teknik tulis menggunakan canting dan malam adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ukiran Jepara"
+        },
+        {
+          "key": "B",
+          "text": "Kain Batik"
+        },
+        {
+          "key": "C",
+          "text": "Tenun Ikat"
+        },
+        {
+          "key": "D",
+          "text": "Wayang Kulit"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_20",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 21,
+      "type": "multiple_choice",
+      "text": "Kegiatan ekonomi yang menghasilkan barang baru dari bahan mentah dinamakan kegiatan ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Konsumsi"
+        },
+        {
+          "key": "B",
+          "text": "Distribusi"
+        },
+        {
+          "key": "C",
+          "text": "Produksi"
+        },
+        {
+          "key": "D",
+          "text": "Transaksi"
+        }
+      ],
+      "correctAnswer": "C",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_21",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 22,
+      "type": "multiple_choice",
+      "text": "Pihak atau orang yang menyalurkan barang dari produsen kepada konsumen disebut ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Produsen"
+        },
+        {
+          "key": "B",
+          "text": "Konsumen"
+        },
+        {
+          "key": "C",
+          "text": "Distributor"
+        },
+        {
+          "key": "D",
+          "text": "Kolektor"
+        }
+      ],
+      "correctAnswer": "C",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_22",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 23,
+      "type": "multiple_choice",
+      "text": "Sikap yang baik terhadap keberagaman mata pencaharian masyarakat sekitar adalah ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Membeda-bedakan berdasarkan penghasilan"
+        },
+        {
+          "key": "B",
+          "text": "Saling menghargai dan menghormati"
+        },
+        {
+          "key": "C",
+          "text": "Menganggap pekerjaan sendiri paling baik"
+        },
+        {
+          "key": "D",
+          "text": "Acuh tak acuh terhadap tetangga II. ESSAY / URAIAN (10 SOAL)"
+        }
+      ],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_23",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 24,
+      "type": "essay",
+      "text": "Sebutkan 4 (empat) sifat-sifat cahaya yang kamu ketahui beserta masing-masing contoh penjelasannya dalam kehidupan sehari-hari!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "E",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_24",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 25,
+      "type": "essay",
+      "text": "Jelaskan proses terjadinya rantai makanan pada ekosistem hutan! Sebutkan komponen apa saja yang berperan sebagai produsen, konsumen I, konsumen II, dan dekomposer!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "C",
+      "images": [
+        "/uploads/docx-img-1791965507205-5606353.png"
+      ],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_25",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 26,
+      "type": "essay",
+      "text": "Tuliskan persamaan reaksi fotosintesis secara singkat (bahan-bahan yang dibutuhkan dan hasil dari fotosintesis)!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_26",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 27,
+      "type": "essay",
+      "text": "Jelaskan 3 (tiga) cara pembuatan magnet buatan yang biasa dilakukan dalam percobaan ilmu pengetahuan!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_27",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 28,
+      "type": "essay",
+      "text": "Berikan 3 (tiga) contoh perubahan energi listrik menjadi bentuk energi lain beserta nama alat elektronik yang digunakannya!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_28",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 29,
+      "type": "essay",
+      "text": "Berdasarkan Gambar E, jelaskan secara berurutan bagaimana tahapan terjadinya Siklus Air di Bumi mulai dari Evaporasi hingga terjadinya Hujan (Presipitasi)!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "B",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_29",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 30,
+      "type": "essay",
+      "text": "Mengapa daerah resapan air sangat penting bagi keseimbangan lingkungan? Sebutkan apa yang akan terjadi jika area resapan air banyak yang tertutup beton!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "D",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_30",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 31,
+      "type": "essay",
+      "text": "Sebutkan 3 peninggalan sejarah kerajaan Hindu-Buddha di Indonesia yang masih bisa kita lihat hingga saat ini (misal: candi, prasasti, punden)!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "C",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    },
+    {
+      "id": "q_1791965572284_31",
+      "schoolId": "sch_sman1_teladan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "number": 32,
+      "type": "essay",
+      "text": "Jelaskan perbedaan antara kegiatan ekonomi Produksi, Distribusi, dan Konsumsi beserta contoh kaitan ketiganya dalam kehidupan sehari-hari!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+      "options": [],
+      "correctAnswer": "C",
+      "images": [],
+      "tables": [],
+      "scoreWeight": 5,
+      "explanation": "",
+      "extractionStatus": "valid",
+      "createdAt": "2026-10-14T08:12:52.284Z"
+    }
+  ],
+  "exams": [
+    {
+      "id": "ex_pts_mat_x",
+      "schoolId": "sch_sman1_teladan",
+      "title": "Penilaian Tengah Semester (PTS) Matematika Peminatan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "academicYear": "2024/2025",
+      "semester": "Ganjil",
+      "examCode": "MAT-PTS10",
+      "startTime": "2026-10-13T13:34:19.115Z",
+      "endTime": "2026-10-13T16:44:19.115Z",
+      "durationMinutes": 90,
+      "lateToleranceMinutes": 30,
+      "shuffleQuestions": true,
+      "shuffleOptions": true,
+      "kkm": 75,
+      "maxScore": 100,
+      "showScoreToStudent": true,
+      "showDiscussionToStudent": false,
+      "status": "active",
+      "questions": [
+        {
+          "id": "q_mat_1",
+          "schoolId": "sch_sman1_teladan",
+          "subject": "Matematika Peminatan",
+          "gradeClass": "X IPA 1",
+          "number": 1,
+          "type": "multiple_choice",
+          "text": "Jika f(x) = 2x² - 4x + 5, tentukan koordinat titik puncak parabola fungsi kuadrat tersebut!",
+          "options": [
+            {
+              "key": "A",
+              "text": "(1, 3)"
+            },
+            {
+              "key": "B",
+              "text": "(2, 5)"
+            },
+            {
+              "key": "C",
+              "text": "(-1, 3)"
+            },
+            {
+              "key": "D",
+              "text": "(1, -3)"
+            },
+            {
+              "key": "E",
+              "text": "(-2, 5)"
+            }
+          ],
+          "correctAnswer": "A",
+          "scoreWeight": 2,
+          "explanation": "Sumbu simetri x = -b/(2a) = -(-4)/(2*2) = 1. f(1) = 2(1) - 4(1) + 5 = 3. Jadi titik puncak (1, 3).",
+          "extractionStatus": "valid",
+          "createdAt": "2026-10-13T13:44:19.115Z"
+        },
+        {
+          "id": "q_mat_2",
+          "schoolId": "sch_sman1_teladan",
+          "subject": "Matematika Peminatan",
+          "gradeClass": "X IPA 1",
+          "number": 2,
+          "type": "multiple_choice",
+          "text": "Nilai dari sin 30° + cos 60° - tan 45° adalah...",
+          "options": [
+            {
+              "key": "A",
+              "text": "0"
+            },
+            {
+              "key": "B",
+              "text": "1/2"
+            },
+            {
+              "key": "C",
+              "text": "1"
+            },
+            {
+              "key": "D",
+              "text": "√3"
+            },
+            {
+              "key": "E",
+              "text": "2"
+            }
+          ],
+          "correctAnswer": "A",
+          "scoreWeight": 2,
+          "explanation": "sin 30° = 1/2, cos 60° = 1/2, tan 45° = 1. Maka (1/2 + 1/2 - 1) = 0.",
+          "extractionStatus": "valid",
+          "createdAt": "2026-10-13T13:44:19.115Z"
+        },
+        {
+          "id": "q_mat_3",
+          "schoolId": "sch_sman1_teladan",
+          "subject": "Matematika Peminatan",
+          "gradeClass": "X IPA 1",
+          "number": 3,
+          "type": "multiple_choice",
+          "text": "Sebuah segitiga ABC siku-siku di B dengan panjang sisi AB = 6 cm dan BC = 8 cm. Panjang sisi miring AC adalah...",
+          "options": [
+            {
+              "key": "A",
+              "text": "10 cm"
+            },
+            {
+              "key": "B",
+              "text": "12 cm"
+            },
+            {
+              "key": "C",
+              "text": "14 cm"
+            },
+            {
+              "key": "D",
+              "text": "9 cm"
+            },
+            {
+              "key": "E",
+              "text": "16 cm"
+            }
+          ],
+          "correctAnswer": "A",
+          "scoreWeight": 2,
+          "explanation": "AC = √(AB² + BC²) = √(36 + 64) = √100 = 10 cm.",
+          "extractionStatus": "valid",
+          "createdAt": "2026-10-13T13:44:19.115Z"
+        },
+        {
+          "id": "q_mat_4",
+          "schoolId": "sch_sman1_teladan",
+          "subject": "Matematika Peminatan",
+          "gradeClass": "X IPA 1",
+          "number": 4,
+          "type": "multiple_choice",
+          "text": "Himpunan penyelesaian dari pertidaksamaan 2x - 3 < 7 adalah...",
+          "options": [
+            {
+              "key": "A",
+              "text": "x < 5"
+            },
+            {
+              "key": "B",
+              "text": "x > 5"
+            },
+            {
+              "key": "C",
+              "text": "x < 2"
+            },
+            {
+              "key": "D",
+              "text": "x > 2"
+            },
+            {
+              "key": "E",
+              "text": "x ≤ 5"
+            }
+          ],
+          "correctAnswer": "A",
+          "scoreWeight": 2,
+          "explanation": "2x < 10 => x < 5.",
+          "extractionStatus": "valid",
+          "createdAt": "2026-10-13T13:44:19.115Z"
+        },
+        {
+          "id": "q_mat_5",
+          "schoolId": "sch_sman1_teladan",
+          "subject": "Matematika Peminatan",
+          "gradeClass": "X IPA 1",
+          "number": 5,
+          "type": "essay",
+          "text": "Jelaskan pengertian fungsi bijektif dan berikan satu contoh fungsi nyata yang bersifat bijektif beserta penjelasannya!",
+          "options": [],
+          "correctAnswer": "Fungsi bijektif adalah fungsi yang injektif (satu-satu) dan surjektif (pada). Contoh: f(x) = 2x + 1.",
+          "scoreWeight": 5,
+          "explanation": "Kriteria penilaian: Pengertian tepat (2 poin), Contoh tepat (2 poin), Penjelasan domain-kodomain (1 poin).",
+          "extractionStatus": "valid",
+          "createdAt": "2026-10-13T13:44:19.115Z"
+        }
+      ],
+      "createdAt": "2026-10-13T13:44:19.115Z",
+      "updatedAt": "2026-10-13T13:44:19.115Z"
+    },
+    {
+      "id": "ex_1791901482701",
+      "schoolId": "sch_sman1_teladan",
+      "title": "Ujian Soal Ulangan Matematika Kelas 6",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "academicYear": "2024/2025",
+      "semester": "Ganjil",
+      "examCode": "EX-6411",
+      "startTime": "2026-10-13T14:17",
+      "endTime": "2026-10-13T18:17",
+      "durationMinutes": 90,
+      "lateToleranceMinutes": 15,
+      "shuffleQuestions": true,
+      "shuffleOptions": true,
+      "kkm": 75,
+      "maxScore": 100,
+      "showScoreToStudent": true,
+      "showDiscussionToStudent": false,
+      "status": "active",
+      "questions": [
+        {
+          "number": 1,
+          "type": "multiple_choice",
+          "text": "Hasil dari (-12) + 25 - (-18) adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "31"
+            },
+            {
+              "key": "B",
+              "text": "-5"
+            },
+            {
+              "key": "C",
+              "text": "19"
+            },
+            {
+              "key": "D",
+              "text": "43"
+            }
+          ],
+          "correctAnswer": "A",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 2,
+          "type": "multiple_choice",
+          "text": "Pak Budi membeli 5 kardus mie instan. Setiap kardus berisi 40 bungkus mie. Mie tersebut akan dibagikan kepada 8 panti asuhan sama banyak. Berapa bungkus mie yang diterima setiap panti asuhan?",
+          "options": [
+            {
+              "key": "A",
+              "text": "20 bungkus"
+            },
+            {
+              "key": "B",
+              "text": "25 bungkus"
+            },
+            {
+              "key": "C",
+              "text": "30 bungkus"
+            },
+            {
+              "key": "D",
+              "text": "35 bungkus"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 3,
+          "type": "multiple_choice",
+          "text": "Hasil dari 2/5 + 1/4 × 2/3 adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "17/30"
+            },
+            {
+              "key": "B",
+              "text": "11/30"
+            },
+            {
+              "key": "C",
+              "text": "13/30"
+            },
+            {
+              "key": "D",
+              "text": "7/15"
+            }
+          ],
+          "correctAnswer": "A",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 4,
+          "type": "multiple_choice",
+          "text": "Perhatikan diagram lingkaran di bawah ini! Jika jumlah seluruh siswa adalah 120 orang, berapa banyak siswa yang menyukai mata pelajaran Matematika?",
+          "options": [
+            {
+              "key": "A",
+              "text": "30 orang"
+            },
+            {
+              "key": "B",
+              "text": "36 orang"
+            },
+            {
+              "key": "C",
+              "text": "24 orang"
+            },
+            {
+              "key": "D",
+              "text": "18 orang"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [
+            "/uploads/docx-img-1791901377059-6652389.png"
+          ],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 5,
+          "type": "multiple_choice",
+          "text": "Keliling sebuah lingkaran yang memiliki diameter 28 cm adalah ... (π = 22/7)",
+          "options": [
+            {
+              "key": "A",
+              "text": "88 cm"
+            },
+            {
+              "key": "B",
+              "text": "176 cm"
+            },
+            {
+              "key": "C",
+              "text": "616 cm"
+            },
+            {
+              "key": "D",
+              "text": "44 cm"
+            }
+          ],
+          "correctAnswer": "A",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 6,
+          "type": "multiple_choice",
+          "text": "Sebuah tabung memiliki jari-jari alas 7 cm dan tinggi 20 cm. Volume tabung tersebut adalah ... (π = 22/7)",
+          "options": [
+            {
+              "key": "A",
+              "text": "1.540 cm³"
+            },
+            {
+              "key": "B",
+              "text": "3.080 cm³"
+            },
+            {
+              "key": "C",
+              "text": "4.620 cm³"
+            },
+            {
+              "key": "D",
+              "text": "6.160 cm³"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 7,
+          "type": "multiple_choice",
+          "text": "Perhatikan gambar gabungan bangun datar di bawah ini! Luas total bangun tersebut adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "126 cm²"
+            },
+            {
+              "key": "B",
+              "text": "156 cm²"
+            },
+            {
+              "key": "C",
+              "text": "180 cm²"
+            },
+            {
+              "key": "D",
+              "text": "216 cm²"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [
+            "/uploads/docx-img-1791901377064-9830796.png"
+          ],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 8,
+          "type": "multiple_choice",
+          "text": "Data nilai ulangan Matematika Ani adalah sebagai berikut: 7, 8, 9, 6, 8, 10, 8, 7, 9. Modus dari data nilai tersebut adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "7"
+            },
+            {
+              "key": "B",
+              "text": "8"
+            },
+            {
+              "key": "C",
+              "text": "8.5"
+            },
+            {
+              "key": "D",
+              "text": "9"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 9,
+          "type": "multiple_choice",
+          "text": "Perhatikan gambar bidang Kartesius di bawah ini! Koordinat titik C adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "(2, 3)"
+            },
+            {
+              "key": "B",
+              "text": "(-3, 2)"
+            },
+            {
+              "key": "C",
+              "text": "(-2, -4)"
+            },
+            {
+              "key": "D",
+              "text": "(4, -3)"
+            }
+          ],
+          "correctAnswer": "C",
+          "images": [
+            "/uploads/docx-img-1791901377086-7640410.png"
+          ],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 10,
+          "type": "multiple_choice",
+          "text": "Rata-rata (mean) dari data nilai: 6, 7, 8, 8, 9, 10, 8, 8 adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "7,75"
+            },
+            {
+              "key": "B",
+              "text": "8,00"
+            },
+            {
+              "key": "C",
+              "text": "8,25"
+            },
+            {
+              "key": "D",
+              "text": "8,50 II. JAWABLAH PERTANYAAN-PERTANYAAN DI BAWAH INI DENGAN JELAS DAN BENAR!"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 1,
+          "type": "essay",
+          "text": "Sebuah toko kelontong memiliki persediaan 4,5 kg gula pasir. Hari ini toko tersebut menerima kiriman gula pasir sebanyak 3/4 kg dari distributor. Jika gula tersebut akan dikemas ulang ke dalam kantong plastik berukuran 0,25 kg, berapa banyak kantong plastik yang dibutuhkan?\nJawab:.................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "A",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 2,
+          "type": "essay",
+          "text": "Perhatikan gambar bangun ruang balok di bawah ini!Hitunglah volume dan luas permukaan balok tersebut jika panjang p = 15 cm, lebar l = 10 cm, dan tinggi t = 8 cm!\nJawab:.................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "B",
+          "images": [
+            "/uploads/docx-img-1791901377086-2541035.png"
+          ],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 3,
+          "type": "essay",
+          "text": "Nilai ulangan harian matematika dari 10 siswa kelas VI adalah sebagai berikut:75, 80, 90, 65, 70, 85, 90, 80, 80, 95.Hitunglah nilai Rata-rata (Mean), Median, dan Modus dari data tersebut!\nJawab:.................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "A",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 4,
+          "type": "essay",
+          "text": "Ibu membuat taplak meja berbentuk lingkaran dengan panjang jari-jari 35 cm. Di sekeliling tepi taplak meja tersebut akan dipasang renda hiasan. Jika harga renda adalah Rp 12.000,00 per meter, berapakah total biaya yang harus dikeluarkan Ibu untuk membeli renda tersebut? (Gunakan π = 22/7)\nJawab:.................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        }
+      ],
+      "createdAt": "2026-10-13T14:24:42.701Z",
+      "updatedAt": "2026-10-13T14:24:42.701Z"
+    },
+    {
+      "id": "ex_1791965572416",
+      "schoolId": "sch_sman1_teladan",
+      "title": "Ujian Soal IPAS Kelas 5 SD Lengkap",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "allowedClasses": [
+        "X IPA 1"
+      ],
+      "allowedStudentIds": [],
+      "tokenActive": true,
+      "academicYear": "2024/2025",
+      "semester": "Ganjil",
+      "examCode": "EX-3973",
+      "startTime": "2026-10-14T08:08",
+      "endTime": "2026-10-14T12:08",
+      "durationMinutes": 90,
+      "lateToleranceMinutes": 15,
+      "shuffleQuestions": true,
+      "shuffleOptions": true,
+      "kkm": 75,
+      "maxScore": 100,
+      "showScoreToStudent": true,
+      "showDiscussionToStudent": false,
+      "status": "active",
+      "questions": [
+        {
+          "number": 1,
+          "type": "multiple_choice",
+          "text": "Cahaya memiliki sifat dapat merambat lurus. Contoh peristiwa dalam kehidupan sehari-hari yang membuktikan sifat tersebut adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Terjadinya pelangi di langit"
+            },
+            {
+              "key": "B",
+              "text": "Sinar lampu mobil yang lurus saat malam hari"
+            },
+            {
+              "key": "C",
+              "text": "Bayangan sendok membengkok di dalam air"
+            },
+            {
+              "key": "D",
+              "text": "Wajah terlihat di cermin"
+            }
+          ],
+          "correctAnswer": "E",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 2,
+          "type": "multiple_choice",
+          "text": "Perhatikan Gambar A di bawah ini!Kedudukan katak dalam rantai makanan tersebut adalah sebagai ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Produsen"
+            },
+            {
+              "key": "B",
+              "text": "Konsumen I"
+            },
+            {
+              "key": "C",
+              "text": "Konsumen II"
+            },
+            {
+              "key": "D",
+              "text": "Pengurai (Dekomposer)"
+            }
+          ],
+          "correctAnswer": "C",
+          "images": [
+            "/uploads/docx-img-1791965507204-12523.png"
+          ],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 3,
+          "type": "multiple_choice",
+          "text": "Jika populasi ular pada Gambar A berkurang secara drastis karena diburu manusia, maka kemungkinan dampak yang akan terjadi pada ekosistem adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Populasi katak meningkat pesat"
+            },
+            {
+              "key": "B",
+              "text": "Populasi padi semakin melimpah"
+            },
+            {
+              "key": "C",
+              "text": "Populasi belalang menurun tajam"
+            },
+            {
+              "key": "D",
+              "text": "Hasil panen petani meningkat"
+            }
+          ],
+          "correctAnswer": "C",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 2,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 4,
+          "type": "multiple_choice",
+          "text": "Perhatikan Gambar B! Alat kelamin jantan pada bunga ditunjukkan oleh nomor ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Nomor 1"
+            },
+            {
+              "key": "B",
+              "text": "Nomor 2"
+            },
+            {
+              "key": "C",
+              "text": "Nomor 3"
+            },
+            {
+              "key": "D",
+              "text": "Nomor 4"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [
+            "/uploads/docx-img-1791965507205-5606353.png"
+          ],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 5,
+          "type": "multiple_choice",
+          "text": "Peristiwa jatuhnya serbuk sari ke kepala putik dinamakan ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Fotosintesis"
+            },
+            {
+              "key": "B",
+              "text": "Penyerbukan"
+            },
+            {
+              "key": "C",
+              "text": "Pembuahan"
+            },
+            {
+              "key": "D",
+              "text": "Germinasi"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 6,
+          "type": "multiple_choice",
+          "text": "Tumbuhan hijau mampu membuat makanannya sendiri melalui proses fotosintesis. Bahan utama yang diserap oleh akar tumbuhan dari dalam tanah untuk fotosintesis adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oksigen dan Karbon Dioksida"
+            },
+            {
+              "key": "B",
+              "text": "Air dan Mineral"
+            },
+            {
+              "key": "C",
+              "text": "Cahaya Matahari dan Klorofil"
+            },
+            {
+              "key": "D",
+              "text": "Glukosa dan Nitrogen"
+            }
+          ],
+          "correctAnswer": "D",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 7,
+          "type": "multiple_choice",
+          "text": "Gas yang dihasilkan dari proses fotosintesis dan sangat dibutuhkan oleh manusia serta hewan untuk bernapas adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Karbon Dioksida"
+            },
+            {
+              "key": "B",
+              "text": "Nitrogen"
+            },
+            {
+              "key": "C",
+              "text": "Oksigen"
+            },
+            {
+              "key": "D",
+              "text": "Karbon Monoksida"
+            }
+          ],
+          "correctAnswer": "C",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 8,
+          "type": "multiple_choice",
+          "text": "Perhatikan Gambar C! Pensil yang dicelupkan ke dalam gelas berisi air terlihat seolah-olah patah/bengkok. Hal ini membuktikan sifat cahaya yaitu ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Cahaya dapat dipantulkan"
+            },
+            {
+              "key": "B",
+              "text": "Cahaya menembus benda bening"
+            },
+            {
+              "key": "C",
+              "text": "Cahaya dapat dibiaskan"
+            },
+            {
+              "key": "D",
+              "text": "Cahaya merambat lurus"
+            }
+          ],
+          "correctAnswer": "C",
+          "images": [
+            "/uploads/docx-img-1791965507210-4700923.png"
+          ],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 9,
+          "type": "multiple_choice",
+          "text": "Sifat magnet yang ditunjukkan pada Gambar D ketika dua kutub yang sama (S-S) didekatkan adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tarik-menarik dengan kuat"
+            },
+            {
+              "key": "B",
+              "text": "Tolak-menolak"
+            },
+            {
+              "key": "C",
+              "text": "Menempel erat"
+            },
+            {
+              "key": "D",
+              "text": "Tidak terjadi reaksi apapun"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [
+            "/uploads/docx-img-1791965507212-7046192.png"
+          ],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 10,
+          "type": "multiple_choice",
+          "text": "Benda berikut yang termasuk ke dalam benda magnetis (dapat ditarik magnet) adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Pensil kayu dan penghapus"
+            },
+            {
+              "key": "B",
+              "text": "Jarum, paku, dan klip kertas"
+            },
+            {
+              "key": "C",
+              "text": "Baju kain dan botol plastik"
+            },
+            {
+              "key": "D",
+              "text": "Kaca jendela dan daun kering"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 11,
+          "type": "multiple_choice",
+          "text": "Perubahan energi yang terjadi pada alat kipas angin saat dinyalakan adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Energi listrik menjadi energi panas"
+            },
+            {
+              "key": "B",
+              "text": "Energi listrik menjadi energi gerak"
+            },
+            {
+              "key": "C",
+              "text": "Energi kimia menjadi energi listrik"
+            },
+            {
+              "key": "D",
+              "text": "Energi gerak menjadi energi bunyi"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 12,
+          "type": "multiple_choice",
+          "text": "Bentuk energi yang tersimpan dalam makanan, baterai, dan bahan bakar minyak adalah energi ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Kinetik"
+            },
+            {
+              "key": "B",
+              "text": "Kimia"
+            },
+            {
+              "key": "C",
+              "text": "Potensial Gravitasi"
+            },
+            {
+              "key": "D",
+              "text": "Termal"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 13,
+          "type": "multiple_choice",
+          "text": "Permukaan bumi terdiri dari daratan dan perairan. Lapisan air yang menyelimuti permukaan bumi disebut ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Atmosfer"
+            },
+            {
+              "key": "B",
+              "text": "Litosfer"
+            },
+            {
+              "key": "C",
+              "text": "Hidrosfer"
+            },
+            {
+              "key": "D",
+              "text": "Biosfer"
+            }
+          ],
+          "correctAnswer": "C",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 14,
+          "type": "multiple_choice",
+          "text": "Perhatikan Gambar E tentang siklus air! Tahap penguapan air laut/sungai akibat panas matahari yang ditunjukkan oleh nomor 1 disebut ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Kondensasi"
+            },
+            {
+              "key": "B",
+              "text": "Evaporasi"
+            },
+            {
+              "key": "C",
+              "text": "Presipitasi"
+            },
+            {
+              "key": "D",
+              "text": "Infiltrasi"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [
+            "/uploads/docx-img-1791965507222-9364332.png"
+          ],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 15,
+          "type": "multiple_choice",
+          "text": "Proses pembentukan awan dari titik-titik air hasil penguapan (nomor 2 pada Gambar E) disebut ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Kondensasi"
+            },
+            {
+              "key": "B",
+              "text": "Evaporasi"
+            },
+            {
+              "key": "C",
+              "text": "Transpirasi"
+            },
+            {
+              "key": "D",
+              "text": "Presipitasi"
+            }
+          ],
+          "correctAnswer": "A",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 16,
+          "type": "multiple_choice",
+          "text": "Upaya manusia yang dapat mengganggu dan merusak siklus air adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Melakukan reboisasi hutan gundul"
+            },
+            {
+              "key": "B",
+              "text": "Menutup seluruh pekarangan rumah dengan beton/semen"
+            },
+            {
+              "key": "C",
+              "text": "Membuat lubang biopori"
+            },
+            {
+              "key": "D",
+              "text": "Menghemat penggunaan air bersih"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 17,
+          "type": "multiple_choice",
+          "text": "Kerajaan Hindu tertua di Indonesia yang dibuktikan dengan ditemukannya 7 buah Yupa adalah Kerajaan ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tarumanegara"
+            },
+            {
+              "key": "B",
+              "text": "Kutai"
+            },
+            {
+              "key": "C",
+              "text": "Majapahit"
+            },
+            {
+              "key": "D",
+              "text": "Sriwijaya"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 18,
+          "type": "multiple_choice",
+          "text": "Kerajaan Buddha terbesar di Indonesia yang pernah menjadi pusat penyiaran agama Buddha di Asia Tenggara adalah Kerajaan ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Singasari"
+            },
+            {
+              "key": "B",
+              "text": "Mataram Kuno"
+            },
+            {
+              "key": "C",
+              "text": "Sriwijaya"
+            },
+            {
+              "key": "D",
+              "text": "Samudera Pasai"
+            }
+          ],
+          "correctAnswer": "C",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 19,
+          "type": "multiple_choice",
+          "text": "Patih terkenal dari Kerajaan Majapahit yang mengucapkan &apos;Sumpah Palapa&apos; untuk menyatukan Nusantara adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Hayam Wuruk"
+            },
+            {
+              "key": "B",
+              "text": "Gajah Mada"
+            },
+            {
+              "key": "C",
+              "text": "Mulawarman"
+            },
+            {
+              "key": "D",
+              "text": "Ken Arok"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 20,
+          "type": "multiple_choice",
+          "text": "Warisan budaya takbenda Indonesia yang diakui UNESCO dan dibuat dengan teknik tulis menggunakan canting dan malam adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ukiran Jepara"
+            },
+            {
+              "key": "B",
+              "text": "Kain Batik"
+            },
+            {
+              "key": "C",
+              "text": "Tenun Ikat"
+            },
+            {
+              "key": "D",
+              "text": "Wayang Kulit"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 21,
+          "type": "multiple_choice",
+          "text": "Kegiatan ekonomi yang menghasilkan barang baru dari bahan mentah dinamakan kegiatan ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Konsumsi"
+            },
+            {
+              "key": "B",
+              "text": "Distribusi"
+            },
+            {
+              "key": "C",
+              "text": "Produksi"
+            },
+            {
+              "key": "D",
+              "text": "Transaksi"
+            }
+          ],
+          "correctAnswer": "C",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 22,
+          "type": "multiple_choice",
+          "text": "Pihak atau orang yang menyalurkan barang dari produsen kepada konsumen disebut ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Produsen"
+            },
+            {
+              "key": "B",
+              "text": "Konsumen"
+            },
+            {
+              "key": "C",
+              "text": "Distributor"
+            },
+            {
+              "key": "D",
+              "text": "Kolektor"
+            }
+          ],
+          "correctAnswer": "C",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 23,
+          "type": "multiple_choice",
+          "text": "Sikap yang baik terhadap keberagaman mata pencaharian masyarakat sekitar adalah ...",
+          "options": [
+            {
+              "key": "A",
+              "text": "Membeda-bedakan berdasarkan penghasilan"
+            },
+            {
+              "key": "B",
+              "text": "Saling menghargai dan menghormati"
+            },
+            {
+              "key": "C",
+              "text": "Menganggap pekerjaan sendiri paling baik"
+            },
+            {
+              "key": "D",
+              "text": "Acuh tak acuh terhadap tetangga II. ESSAY / URAIAN (10 SOAL)"
+            }
+          ],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 24,
+          "type": "essay",
+          "text": "Sebutkan 4 (empat) sifat-sifat cahaya yang kamu ketahui beserta masing-masing contoh penjelasannya dalam kehidupan sehari-hari!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "E",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 25,
+          "type": "essay",
+          "text": "Jelaskan proses terjadinya rantai makanan pada ekosistem hutan! Sebutkan komponen apa saja yang berperan sebagai produsen, konsumen I, konsumen II, dan dekomposer!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "C",
+          "images": [
+            "/uploads/docx-img-1791965507205-5606353.png"
+          ],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 26,
+          "type": "essay",
+          "text": "Tuliskan persamaan reaksi fotosintesis secara singkat (bahan-bahan yang dibutuhkan dan hasil dari fotosintesis)!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 27,
+          "type": "essay",
+          "text": "Jelaskan 3 (tiga) cara pembuatan magnet buatan yang biasa dilakukan dalam percobaan ilmu pengetahuan!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 28,
+          "type": "essay",
+          "text": "Berikan 3 (tiga) contoh perubahan energi listrik menjadi bentuk energi lain beserta nama alat elektronik yang digunakannya!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 29,
+          "type": "essay",
+          "text": "Berdasarkan Gambar E, jelaskan secara berurutan bagaimana tahapan terjadinya Siklus Air di Bumi mulai dari Evaporasi hingga terjadinya Hujan (Presipitasi)!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "B",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 30,
+          "type": "essay",
+          "text": "Mengapa daerah resapan air sangat penting bagi keseimbangan lingkungan? Sebutkan apa yang akan terjadi jika area resapan air banyak yang tertutup beton!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "D",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 31,
+          "type": "essay",
+          "text": "Sebutkan 3 peninggalan sejarah kerajaan Hindu-Buddha di Indonesia yang masih bisa kita lihat hingga saat ini (misal: candi, prasasti, punden)!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "C",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        },
+        {
+          "number": 32,
+          "type": "essay",
+          "text": "Jelaskan perbedaan antara kegiatan ekonomi Produksi, Distribusi, dan Konsumsi beserta contoh kaitan ketiganya dalam kehidupan sehari-hari!\nJawab: ..................................................................................................................................................................................................................................................................................................................................................................................................",
+          "options": [],
+          "correctAnswer": "C",
+          "images": [],
+          "tables": [],
+          "scoreWeight": 5,
+          "explanation": "",
+          "extractionStatus": "valid"
+        }
+      ],
+      "createdAt": "2026-10-14T08:12:52.416Z",
+      "updatedAt": "2026-10-14T08:12:52.416Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ses_1791965668512_240101",
+      "examId": "ex_1791965572416",
+      "schoolId": "sch_sman1_teladan",
+      "studentId": "std_1001",
+      "studentName": "Aditya Pratama Putra",
+      "nis": "240101",
+      "gradeClass": "X IPA 1",
+      "startedAt": "2026-10-14T08:14:28.512Z",
+      "serverDeadline": "2026-10-14T09:44:28.512Z",
+      "status": "completed",
+      "answers": {},
+      "questionOrder": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "violations": [],
+      "lastHeartbeat": "2026-10-14T08:15:08.675Z",
+      "graded": true,
+      "essayGraded": false,
+      "submittedAt": "2026-10-14T08:15:23.183Z",
+      "totalScore": 0
+    }
+  ],
+  "violations": [],
+  "beritaAcara": [
+    {
+      "id": "ba_ex_pts_mat_x",
+      "examId": "ex_pts_mat_x",
+      "schoolId": "sch_sman1_teladan",
+      "examTitle": "Penilaian Tengah Semester (PTS) Matematika Peminatan",
+      "subject": "Matematika Peminatan",
+      "gradeClass": "X IPA 1",
+      "dayDate": "Selasa, 13 Oktober 2026",
+      "timeRange": "13.34 - 16.44 WIB",
+      "totalRegistered": 4,
+      "totalPresent": 0,
+      "totalAbsent": 4,
+      "absentStudentsNote": "4 siswa tidak hadir tanpa keterangan.",
+      "incidentNotes": "Ujian berlangsung tertib, lancar, dan aman dengan pengawasan sistem ISTAFA EXAM.",
+      "headProctorName": "Pengawas Ujian 1",
+      "proctorNip": "-",
+      "principalName": "Dr. H. Ahmad Dahlan, M.Pd.",
+      "principalNip": "19750812 199903 1 002",
+      "createdAt": "2026-10-13T14:30:17.893Z",
+      "updatedAt": "2026-10-13T14:30:17.893Z"
+    }
+  ],
+  "settings": [
+    {
+      "schoolId": "sch_sman1_teladan",
+      "antiCheatSensitivity": "medium",
+      "maxViolationsBeforeWarning": 1,
+      "maxViolationsBeforeLockout": 5,
+      "enableSoundAlerts": true,
+      "enableTtsAlerts": true,
+      "allowResumeOnDisconnect": true,
+      "requireFullscreen": true,
+      "watermarkOnExamScreen": true
+    },
+    {
+      "schoolId": "sch_1791966410201",
+      "antiCheatSensitivity": "medium",
+      "maxViolationsBeforeWarning": 1,
+      "maxViolationsBeforeLockout": 5,
+      "enableSoundAlerts": true,
+      "enableTtsAlerts": true,
+      "allowResumeOnDisconnect": true,
+      "requireFullscreen": true,
+      "watermarkOnExamScreen": true
+    },
+    {
+      "schoolId": "sch_1791967019545",
+      "antiCheatSensitivity": "medium",
+      "maxViolationsBeforeWarning": 1,
+      "maxViolationsBeforeLockout": 5,
+      "enableSoundAlerts": true,
+      "enableTtsAlerts": true,
+      "allowResumeOnDisconnect": true,
+      "requireFullscreen": true,
+      "watermarkOnExamScreen": true
+    }
+  ],
+  "loginAttempts": {
+    "admin_teladan": {
+      "count": 1
+    },
+    "superadmin": {
+      "count": 2
+    }
+  }
+}

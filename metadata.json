@@ -1,0 +1,6 @@
+{
+  "name": "ISTAFA EXAM — Platform Ujian Online Multi-Sekolah",
+  "description": "Platform ujian online multi-sekolah profesional dengan konversi otomatis soal DOCX/PDF, monitoring real-time anti-kecurangan, manajemen kartu peserta, dan analisis nilai.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
